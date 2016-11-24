@@ -1,0 +1,80 @@
+
+body{
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.container {
+    width: 800px;
+	margin: auto;
+	height: auto;
+}
+
+.header{
+    width: 800px;
+	margin: 50px auto;
+	height: 50px;
+    text-align: center;
+    border-radius: 2px;
+	background-color: #ffffe6;
+	font-family: Helvetica, sans-serif;
+	padding: 1em;
+}
+
+div.poster {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 100px;
+}
+
+#resultBox{
+    width: 800px;
+	margin: 50px auto;
+	background-color: #ffffe6;
+	padding: 1em;
+	border-radius: 2px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+}
+
+label, legend{
+    padding: 1em;
+    font-weight: bold;
+    color: white;
+    font-family: Helvetica, sans-serif;
+}
+
+span{
+    font-family: Helvetica, sans-serif;
+}
+
+span:hover{
+    font-weight: bold;
+    cursor: pointer;
+    font-family: Helvetica, sans-serif;
+}
+
+#errormessage{
+    font-weight: bold;
+    color: white;
+    font-family: Helvetica, sans-serif;
+}
+
+input{
+    padding: 1em;
+    font-family: Helvetica, sans-serif;
+    border-radius: 2px;
+}
+
+#search,#reset{
+    margin-left: 1em;
+}
+
+.caption {
+    display: block;
+}

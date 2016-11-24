@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>Movie Catalog</title>
+<meta name="viewport" content="width=device-width initial-scale=1"/>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body background="img/reel.jpeg">
+	<div class="container">
+	   <div class="header"> <h1>Movie Catalog</h1> </div>
+	   <form action="/" method="GET">
+	       <input style="margin : 5px;" type="submit" value="Home" />
+	   </form>
+	   <div id="resultBox">
+	    <% mData["Search"].forEach(function(movie){ %>
+        <div class="poster">
+            <img src="<%= movie["Poster"] %>" alt="Poster Not Available" />
+            <span id="title" class="caption"><%= movie["Title"] %></span> 
+            <span id="year" class="caption"><%= movie["Year"] %></span> 
+        </div>
+        <% }); %>
+        </div>
+    </div>
+</body>
+</html>
